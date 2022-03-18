@@ -5,7 +5,7 @@
     "builds": [
         {
             "src": "uniquep/wsgi.py",
-            "use": "@ardnt/vercel-python-wsgi"
+            "use": "@jgtvares/py-vercel"
         }
     ],
     "routes": [
