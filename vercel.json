@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "uniquep/wsgi.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "uniquep/wsgi.py"
+        }
+    ]
+}
