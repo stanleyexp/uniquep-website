@@ -5,7 +5,7 @@ description = ""
 authors = ["tingwei628 <sbvq6p199xe@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 psycopg2-binary = "^2.9.3"
 Django = "^4.0.3"
 django-cockroachdb = "^4.0"
